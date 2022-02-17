@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "bded8e4d-1cbd-4101-93cd-06c80c6e5a03",
+		"name": "GroceryBillApp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create Clerk",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/ecz/api/addClerk",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"ecz",
+						"api",
+						"addClerk"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
